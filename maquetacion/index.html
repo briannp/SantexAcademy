@@ -4,44 +4,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cluster 2 - X Academy</title>
+    <title>Xacademy Clase 1 maquetacion</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
-        <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
+<body>
+    <div id="header" class="header">
+        <div id="header-left">
+            <img src="logo.svg">
         </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
+        <div id="header-right" class="header-right">
             <p>Nosotros</p>
             <p>Programas</p>
-            <p>Capacitaciones</p>
+            <p>Capaciontaciones</p>
             <p>Alianzas</p>
             <p>Contacto</p>
-            <button>Sumate +</button>
+            <button class="redondo">Sumate +</button>
         </div>
     </div>
-    <div id="contact-form">
-        <form style="margin: 0 300px;" action="">
-            <div>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Email">
-                <select name="" id="">
-                    <option value="">Programas</option>
-                    <option value="">Capacitaciones</option>
-                </select>
-            </div>
-            <div>
-                <textarea name="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <button>Enviar</button>
-            </div>
-        </form>
+
+    <div id="introduction" class="introduction">
+        <div id="introduction-text">
+            <h1>Somos una Fundación dedicada a mejorar 
+                la calidad de vida de las personas y su 
+                entorno, a través de la tecnología.</h1>
+        </div>
+        <div id="introduction-actions" class="introduction-actions">
+            <button class="redondo">Contactanos -></button>
+            <button class="redondo">Sumate +</button>
+        </div>
     </div>
+
+    <div class="impact">
+        <div class="impact-container">
+            <div class="impact-left">
+                <h1>.Impacto</h1>
+                    <p> Buscamos construir alianzas y fortalecer vínculos para 
+                        generar una transformación real en la comunidad. 
+                        Trabajamos para acercar la tecnología innovadora y 
+                        disruptiva del sector privado hacia el sector social.
+                    </p>
+            </div>
+
+            <div class="impact-right">
+                <h2>58</h2>
+                <p>Localidades</p>
+
+                <h2>+50</h2>
+                <p>Mentores</p>
+
+                <h2>301</h2>
+                <p>Participantes</p>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div class="inner-banner"></div>
+
+    <div class="main-container">
+
+        <div class="boxflex">
+            <div class="program-1">
+                <h1>.Programas</h1>
+                <img class= "rounded1" src="./resources/program.jpeg" alt="">
+            </div>
+
+            <div class="program-2">
+                <img src="./resources/xacademy.svg" alt="xAcademy">
+                <p>
+                     xAcademy es un programa de formación en tecnología llevado 
+                     adelante por la Fundación Tecnología con Propósito junto a Santex que 
+                     busca promover un cambio positivo en la comunidad a través de la 
+                     educación en IT, apuntando a lograr la inserción laboral de personas 
+                     en el mundo tecnológico.
+                </p>
+                <button>Más info</button>
+            </div>
+
+        </div>
+
+        <div class="boxflex">
+            <div class="robotic-1">
+                <h1>Robótica educativa: la tecnología del futuro</h1>
+                <p>
+                    Durante el curso, los alumnos y alumnas a través de la robótica
+                    desarrollan la curiosidad, el autodidactismo y las habilidades blandas 
+                    necesarias para afrontar la revolución tecnológica del siglo XXI.
+                </p>
+                <button>Más Info</button>
+            </div>
+
+            <div class="robotic-2">
+                <img class="rounded2" src="./resources/robotics.jpeg" alt="">
+            </div>
+
+        </div>
+
+        <div class="boxflex">
+            <div class="training-1">
+                <h1>.Capacitaciones</h1>
+                <img class="rounded1" src="./resources/training.jpeg" alt="">
+            </div>
+            
+            <div class="training-2">
+                <h1>Estafas virtuales: ¿cómo protegernos?</h1>
+                <p>
+                    Los canales de comunicación a través de medios digitales cobraron 
+                    gran protagonismo a partir de la pandemia. Al mismo tiempo, se 
+                    perfeccionan cada vez más rápido las modalidades de estafas y 
+                    fraudes virtuales. En esta capacitación vas a aprender diferentes tips y
+                    consejos útiles para navegar de manera más segura.
+                </p>
+                <button>Más Info</button>
+            </div>
+
+        </div>
+
+        <div class="boxflex">
+            <div class="security-1">
+                <h1>Seguridad informática para infancias</h1>
+                <p>
+                    ¿Navegamos seguros en internet? La propuesta es una charla para 
+                    niños y niñas donde se brindan herramientas de seguridad y 
+                    autocuidado digital.
+                </p>
+                <button>Más Info</button>
+            </div>
+
+            <div class="security-2">
+                <img class="rounded2" src="./resources/security.jpeg" alt="">
+            </div>
+
+        </div>
+
+        <div class="team">
+            <div class="card">
+                <img src="./resources/twp-juan.png" alt="">
+                <h2>Juan Santiago</h2>
+                <p>Presidente</p>
+            </div>
+
+            <div class="card">
+                <img src="./resources/twp-walter.png" alt="">
+                <h2>Walter Abrigo</h2>
+                <p>Secretario</p>
+            </div>
+
+            <div class="card">
+                <img src="./resources/twp-gabriela.png" alt="">
+                <h2>Gabriela Fernandez</h2>
+                <p>Tesorera</p>
+            </div>
+
+            <div class="card">
+                <img src="./resources/twp-gabriel.png" alt="">
+                <h2>Gabriel Dubini</h2>
+                <p>tesorero</p>
+            </div>
+
+            <div class="card">
+                <img src="./resources/twp-florencia.png" alt="">
+                <h2>Florencia D'Agostino</h2>
+                <p>Direccion Ejecutiva</p>
+            </div>
+
+            <div class="card">
+                <img src="./resources/twp-celeste.png" alt="">
+                <h2>Celeste Torresi</h2>
+                <p>Comision Ejecutiva</p>
+            </div>
+
+            <div class="card">
+                <img src="./resources/twp-lucia.png" alt="">
+                <h2>Lucia Jaimez</h2>
+                <p>Directora xAcademy</p>
+            </div>
+
+        </div>
+
+        <div class="allies">
+            <h1>.Alianzas</h1>
+            
+            <div class="carrousel">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="footer-img">
+                <img src="./resources/footerlogo.svg" alt="">
+            </div>
+
+            <div class="footer-text">
+                <p>
+                    Trabajamos para acercar la tecnología 
+                    innovadora y disruptiva del sector privado 
+                    hacia el sector social.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="">NOSOTROS</a>
+                <a href="">CONTACTO</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="">PROGRAMAS</a>
+                <a href="">CAPACITACIONES</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="">INSTAGRAM</a>
+                <a href="">LINKEDIN</a>
+            </div>
+        </div>
+
+    </footer>
+
 </body>
 </html>
