@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,57 +10,65 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div id="header" class="header">
-        <div id="header-left">
-            <img src="logo.svg">
+    <div id="nav" class="nav">
+        <div id="nav-left">
+            <img src="./technology-with-purpose.svg">
         </div>
-        <div id="header-right" class="header-right">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+        <div>
+            <ul class="nav-right">
+                <li>Nosotros</li>
+                <li>Programas</li>
+                <li>Capacitaciones</li>
+                <li>Alianzas</li>
+                <li>Contacto</li>
+                <button class="round">Sumate +</button>
+            </ul>
+
         </div>
     </div>
 
     <div id="introduction" class="introduction">
         <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar 
-                la calidad de vida de las personas y su 
+            <h1>Somos una Fundación dedicada a mejorar
+                la calidad de vida de las personas y su
                 entorno, a través de la tecnología.</h1>
         </div>
         <div id="introduction-actions" class="introduction-actions">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo">Sumate +</button>
+            <button class="round">Contactanos -></button>
+            <button class="round">Sumate +</button>
         </div>
     </div>
 
-    <div class="impact">
-        <div class="impact-container">
-            <div class="impact-left">
-                <h1>.Impacto</h1>
-                    <p> Buscamos construir alianzas y fortalecer vínculos para 
-                        generar una transformación real en la comunidad. 
-                        Trabajamos para acercar la tecnología innovadora y 
-                        disruptiva del sector privado hacia el sector social.
-                    </p>
-            </div>
+    <div class="impact-container">
+        <div class="impact-left">
+            <h1>.Impacto</h1>
+            <p> Buscamos construir alianzas y fortalecer vínculos para
+                generar una transformación real en la comunidad.
+                Trabajamos para acercar la tecnología innovadora y
+                disruptiva del sector privado hacia el sector social.
+            </p>
+        </div>
 
-            <div class="impact-right">
+        <div class="impact-right">
+            <div class="impact-box">
                 <h2>58</h2>
                 <p>Localidades</p>
+            </div>
 
+            <div class="impact-box">
                 <h2>+50</h2>
                 <p>Mentores</p>
+            </div>
 
+            <div class="impact-box">
                 <h2>301</h2>
                 <p>Participantes</p>
             </div>
-            
 
         </div>
     </div>
@@ -68,128 +77,154 @@
 
     <div class="main-container">
 
-        <div class="boxflex">
-            <div class="program-1">
+        <div class="boxgrid">
+            <div class="box-img">
                 <h1>.Programas</h1>
-                <img class= "rounded1" src="./resources/program.jpeg" alt="">
+                <img class="rounded1" src="./resources/program.jpeg" alt="">
             </div>
 
-            <div class="program-2">
+            <div class="box-text">
                 <img src="./resources/xacademy.svg" alt="xAcademy">
                 <p>
-                     xAcademy es un programa de formación en tecnología llevado 
-                     adelante por la Fundación Tecnología con Propósito junto a Santex que 
-                     busca promover un cambio positivo en la comunidad a través de la 
-                     educación en IT, apuntando a lograr la inserción laboral de personas 
-                     en el mundo tecnológico.
+                    xAcademy es un programa de formación en tecnología llevado
+                    adelante por la Fundación Tecnología con Propósito junto a Santex que
+                    busca promover un cambio positivo en la comunidad a través de la
+                    educación en IT, apuntando a lograr la inserción laboral de personas
+                    en el mundo tecnológico.
                 </p>
-                <button>Más info</button>
+                <button class="round">Más info -></button>
             </div>
 
         </div>
 
-        <div class="boxflex">
-            <div class="robotic-1">
-                <h1>Robótica educativa: la tecnología del futuro</h1>
+        <div class="boxgrid">
+            <div class="box-text">
+                <h4>Robótica educativa: la tecnología del futuro</h4>
                 <p>
                     Durante el curso, los alumnos y alumnas a través de la robótica
-                    desarrollan la curiosidad, el autodidactismo y las habilidades blandas 
+                    desarrollan la curiosidad, el autodidactismo y las habilidades blandas
                     necesarias para afrontar la revolución tecnológica del siglo XXI.
                 </p>
-                <button>Más Info</button>
+                <button class="round">Más info -></button>
             </div>
 
-            <div class="robotic-2">
+            <div class="box-img">
                 <img class="rounded2" src="./resources/robotics.jpeg" alt="">
             </div>
 
         </div>
 
-        <div class="boxflex">
-            <div class="training-1">
+        <div class="boxgrid">
+            <div class="box-img">
                 <h1>.Capacitaciones</h1>
                 <img class="rounded1" src="./resources/training.jpeg" alt="">
             </div>
-            
-            <div class="training-2">
-                <h1>Estafas virtuales: ¿cómo protegernos?</h1>
+
+            <div class="box-text">
+                <h4>Estafas virtuales: ¿cómo protegernos?</h4>
                 <p>
-                    Los canales de comunicación a través de medios digitales cobraron 
-                    gran protagonismo a partir de la pandemia. Al mismo tiempo, se 
-                    perfeccionan cada vez más rápido las modalidades de estafas y 
+                    Los canales de comunicación a través de medios digitales cobraron
+                    gran protagonismo a partir de la pandemia. Al mismo tiempo, se
+                    perfeccionan cada vez más rápido las modalidades de estafas y
                     fraudes virtuales. En esta capacitación vas a aprender diferentes tips y
                     consejos útiles para navegar de manera más segura.
                 </p>
-                <button>Más Info</button>
+                <button class="round">Más info -></button>
             </div>
 
         </div>
 
-        <div class="boxflex">
-            <div class="security-1">
-                <h1>Seguridad informática para infancias</h1>
+        <div class="boxgrid">
+            <div class="box-text">
+                <h4>Seguridad informática para infancias</h4>
                 <p>
-                    ¿Navegamos seguros en internet? La propuesta es una charla para 
-                    niños y niñas donde se brindan herramientas de seguridad y 
+                    ¿Navegamos seguros en internet? La propuesta es una charla para
+                    niños y niñas donde se brindan herramientas de seguridad y
                     autocuidado digital.
                 </p>
-                <button>Más Info</button>
+                <button class="round">Más info -></button>
             </div>
 
-            <div class="security-2">
+            <div class="box-img">
                 <img class="rounded2" src="./resources/security.jpeg" alt="">
             </div>
 
         </div>
 
-        <div class="team">
-            <div class="card">
-                <img src="./resources/twp-juan.png" alt="">
-                <h2>Juan Santiago</h2>
-                <p>Presidente</p>
-            </div>
+        <div class="members">
 
-            <div class="card">
-                <img src="./resources/twp-walter.png" alt="">
-                <h2>Walter Abrigo</h2>
-                <p>Secretario</p>
-            </div>
+            <h2>.Equipo</h2>
 
-            <div class="card">
-                <img src="./resources/twp-gabriela.png" alt="">
-                <h2>Gabriela Fernandez</h2>
-                <p>Tesorera</p>
-            </div>
+            <div class="cards-box">
 
-            <div class="card">
-                <img src="./resources/twp-gabriel.png" alt="">
-                <h2>Gabriel Dubini</h2>
-                <p>tesorero</p>
-            </div>
+                <div class="card">
+                    <img src="./resources/twp-juan.png" alt="">
+                    <div class="card-container">
+                        <h5>Juan Santiago</h5>
+                        <p>Presidente</p>
+                        <button>in</button>
+                    </div>
+                </div>
 
-            <div class="card">
-                <img src="./resources/twp-florencia.png" alt="">
-                <h2>Florencia D'Agostino</h2>
-                <p>Direccion Ejecutiva</p>
-            </div>
+                <div class="card">
+                    <img src="./resources/twp-walter.png" alt="">
+                    <div class="card-container">
+                        <h5>Walter Abrigo</h5>
+                        <p>Secretario</p>
+                        <button>in</button>
+                    </div>
+                </div>
 
-            <div class="card">
-                <img src="./resources/twp-celeste.png" alt="">
-                <h2>Celeste Torresi</h2>
-                <p>Comision Ejecutiva</p>
-            </div>
+                <div class="card">
+                    <img src="./resources/twp-gabriela.png" alt="">
+                    <div class="card-container">
+                        <h5>Gabriela Fernandez</h5>
+                        <p>Tesorera</p>
+                        <button>in</button>
+                    </div>
+                </div>
 
-            <div class="card">
-                <img src="./resources/twp-lucia.png" alt="">
-                <h2>Lucia Jaimez</h2>
-                <p>Directora xAcademy</p>
-            </div>
+                <div class="card">
+                    <img src="./resources/twp-gabriel.png" alt="">
+                    <div class="card-container">
+                        <h5>Gabriel Dubini</h5>
+                        <p>tesorero</p>
+                        <button>in</button>
+                    </div>
+                </div>
 
+                <div class="card">
+                    <img src="./resources/twp-florencia.png" alt="">
+                    <div class="card-container">
+                        <h5>Florencia D'Agostino</h5>
+                        <p>Direccion Ejecutiva</p>
+                        <button>in</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./resources/twp-celeste.png" alt="">
+                    <div class="card-container">
+                        <h5>Celeste Torresi</h5>
+                        <p>Comision Ejecutiva</p>
+                        <button>in</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./resources/twp-lucia.png" alt="">
+                    <div class="card-container">
+                        <h5>Lucia Jaimez</h5>
+                        <p>Directora xAcademy</p>
+                        <button>in</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="allies">
             <h1>.Alianzas</h1>
-            
+
             <div class="carrousel">
                 <img src="" alt="">
                 <img src="" alt="">
@@ -214,8 +249,8 @@
 
             <div class="footer-text">
                 <p>
-                    Trabajamos para acercar la tecnología 
-                    innovadora y disruptiva del sector privado 
+                    Trabajamos para acercar la tecnología
+                    innovadora y disruptiva del sector privado
                     hacia el sector social.
                 </p>
             </div>
@@ -239,4 +274,5 @@
     </footer>
 
 </body>
+
 </html>

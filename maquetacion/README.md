@@ -1,1 +1,1 @@
-This folder contains the code for the HTML and CSS lessons
+Esta carpeta contiene el trabajo de replica de maquetacion y estilos de la web de xAcademy.
