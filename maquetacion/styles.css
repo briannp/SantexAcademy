@@ -15,6 +15,15 @@ button.round {
     cursor: pointer;
 }
 
+button.circular {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
 .nav {
     position: fixed;
     border-bottom: 1px solid gray;
@@ -96,10 +105,16 @@ button.round {
     width: 100vw;
 }
 
+.divisor {
+    margin: 9em;
+}
+.subtitle {
+    margin: 0 10em;
+}
 .boxgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10em 10em;
+    margin: 2em 10em;
     font-size: 1em;
     font-weight: 400;
 }
@@ -201,8 +216,16 @@ button.round {
 }
 
 .card h5 {
+    font-weight: 600;
     font-size: 20px;
+    padding-bottom: 0.2em;
+}
+
+.card p {
     padding-bottom: 0.5em;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #8c939c;
 }
 
 .card-container {
@@ -214,4 +237,8 @@ button.round {
 .card img {
     border-radius: 5% 5% 0 0;
     width: 100%;
+}
+
+.allies {
+    display: none;
 }
